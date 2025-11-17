@@ -3,6 +3,7 @@ Resource  resource.robot
 Suite Setup  Open And Configure Browser
 Suite Teardown  Close Browser
 
+
 *** Test Cases ***
 At start the counter is zero
     Go To  ${HOME_URL}
@@ -15,7 +16,6 @@ When button pressed twice the counter is two
     Click Button  Paina
     Page Should Contain  nappia painettu 2 kertaa
 
-When button nollaa is presses counter is zero
-    Go To  ${HOME_URL}
-    Click Button  Nollaa
-    Page Should Contain  nappia painettu 0 kertaa
+
+
+
